@@ -60,7 +60,7 @@ export default function Home() {
       {/* HEADER */}
       <section className="mb-16 text-center">
         <AnimatedText
-          text="Pablo Gonzalez Tebar"
+          text="Pablo Gonzalez 1AyyPablo "
           className="text-5xl md:text-7xl font-bold tracking-tight"
         />
 
@@ -85,13 +85,13 @@ export default function Home() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Soy Pablo Gonzalez Tebar, artista visual y diseñador de portadas. Me especializo en crear cover art únicos que reflejan la identidad de cada proyecto musical o artístico.
+          Soy Pablo Gonzalez "1AyyPablo", artista visual y diseñador de portadas. Me especializo en crear cover art únicos que reflejan la identidad de cada proyecto musical o artístico y cuento con mas de 60 millones de visitas en mis diseños.
         </motion.p>
 
         {/* BOTÓN INSTAGRAM */}
         <div className="mt-6 flex justify-center">
           <a
-            href="https://instagram.com/tuusuario"
+            href="https://www.instagram.com/1ayypablo/?hl=es"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-pink-600 hover:bg-pink-500 transition rounded-lg"
