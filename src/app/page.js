@@ -139,4 +139,28 @@ export default function Home() {
 
     </main>
   );
+  import Head from "next/head";
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <title>Pablo Gonzalez - Portfolio</title>
+        <meta name="description" content="Portfolio 1AyyPablo" />
+
+        <meta property="og:title" content="Pablo Gonzalez Tebar - Portfolio" />
+        <meta property="og:description" content="Portfolio de cover art y diseño visual" />
+        <meta property="og:image" content="/foto perfil web.jpeg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://1ayypablo.vercel.app" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Pablo Gonzalez Tebar - Portfolio" />
+        <meta name="twitter:description" content="Portfolio de cover art y diseño visual" />
+        <meta name="twitter:image" content="/og-image.png" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
+}
 }
